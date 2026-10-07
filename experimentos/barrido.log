@@ -1,0 +1,212 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+C:\Users\sereb\programming\faculty\ia-gen\corta\rag-mcp-hospital\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\sereb\.cache\huggingface\hub\models--google-bert--bert-base-multilingual-cased. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+C:\Users\sereb\programming\faculty\ia-gen\corta\rag-mcp-hospital\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\sereb\.cache\huggingface\hub. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  22%|██▏       | 43/199 [00:00<00:00, 394.30it/s]Loading weights:  42%|████▏     | 83/199 [00:00<00:00, 393.13it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 927.19it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: google-bert/bert-base-multilingual-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+bert__sec__k1                                 CR 0.250  R 0.250  P 0.250  k 1.00
+bert__sec__k2                                 CR 0.200  R 0.300  P 0.150  k 2.00
+bert__sec__k3                                 CR 0.175  R 0.350  P 0.117  k 3.00
+bert__sec__k5                                 CR 0.150  R 0.450  P 0.090  k 5.00
+bert__sec__k3__u0.5                           CR 0.175  R 0.350  P 0.117  k 3.00
+bert__sec__k3__u0.7                           CR 0.283  R 0.300  P 0.275  k 1.20
+bert__sec__k3__caida0.05                      CR 0.200  R 0.350  P 0.150  k 2.90
+bert__sec__k3__caida0.1                       CR 0.175  R 0.350  P 0.117  k 3.00
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  19%|█▉        | 38/199 [00:00<00:00, 364.49it/s]Loading weights:  38%|███▊      | 75/199 [00:00<00:00, 311.51it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 831.17it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: google-bert/bert-base-multilingual-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+bert__secmeta__k1                             CR 0.300  R 0.300  P 0.300  k 1.00
+bert__secmeta__k2                             CR 0.233  R 0.350  P 0.175  k 2.00
+bert__secmeta__k3                             CR 0.175  R 0.350  P 0.117  k 3.00
+bert__secmeta__k5                             CR 0.167  R 0.500  P 0.100  k 5.00
+bert__secmeta__k3__u0.5                       CR 0.175  R 0.350  P 0.117  k 3.00
+bert__secmeta__k3__u0.7                       CR 0.300  R 0.300  P 0.300  k 1.30
+bert__secmeta__k3__caida0.05                  CR 0.208  R 0.350  P 0.158  k 2.85
+bert__secmeta__k3__caida0.1                   CR 0.175  R 0.350  P 0.117  k 3.00
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  10%|▉         | 19/199 [00:00<00:00, 183.22it/s]Loading weights:  27%|██▋       | 54/199 [00:00<00:00, 275.09it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 930.97it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: google-bert/bert-base-multilingual-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+bert__v300__k1                                CR 0.100  R 0.100  P 0.100  k 1.00
+bert__v300__k2                                CR 0.167  R 0.250  P 0.125  k 2.00
+bert__v300__k3                                CR 0.175  R 0.350  P 0.117  k 3.00
+bert__v300__k5                                CR 0.133  R 0.400  P 0.080  k 5.00
+bert__v300__k3__u0.5                          CR 0.175  R 0.350  P 0.117  k 3.00
+bert__v300__k3__u0.7                          CR 0.125  R 0.150  P 0.117  k 1.35
+bert__v300__k3__caida0.05                     CR 0.175  R 0.300  P 0.133  k 2.80
+bert__v300__k3__caida0.1                      CR 0.175  R 0.350  P 0.117  k 3.00
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  18%|█▊        | 35/199 [00:00<00:00, 324.18it/s]Loading weights:  34%|███▍      | 68/199 [00:00<00:00, 325.01it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 930.83it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: google-bert/bert-base-multilingual-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+bert__v500__k1                                CR 0.250  R 0.250  P 0.250  k 1.00
+bert__v500__k2                                CR 0.233  R 0.350  P 0.175  k 2.00
+bert__v500__k3                                CR 0.190  R 0.350  P 0.133  k 3.00
+bert__v500__k5                                CR 0.157  R 0.400  P 0.100  k 5.00
+bert__v500__k3__u0.5                          CR 0.190  R 0.350  P 0.133  k 3.00
+bert__v500__k3__u0.7                          CR 0.250  R 0.250  P 0.250  k 1.10
+bert__v500__k3__caida0.05                     CR 0.190  R 0.350  P 0.133  k 3.00
+bert__v500__k3__caida0.1                      CR 0.190  R 0.350  P 0.133  k 3.00
+C:\Users\sereb\programming\faculty\ia-gen\corta\rag-mcp-hospital\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\sereb\.cache\huggingface\hub\models--sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3123.92it/s]
+minilm__sec__k1                               CR 0.700  R 0.700  P 0.700  k 1.00
+minilm__sec__k2                               CR 0.567  R 0.850  P 0.425  k 2.00
+minilm__sec__k3                               CR 0.450  R 0.900  P 0.300  k 3.00
+minilm__sec__k5                               CR 0.317  R 0.950  P 0.190  k 5.00
+minilm__sec__k3__u0.5                         CR 0.625  R 0.800  P 0.558  k 1.75
+minilm__sec__k3__u0.7                         CR 0.700  R 0.700  P 0.700  k 1.00
+minilm__sec__k3__caida0.05                    CR 0.658  R 0.750  P 0.617  k 1.40
+minilm__sec__k3__caida0.1                     CR 0.617  R 0.800  P 0.550  k 1.85
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2683.41it/s]
+minilm__secmeta__k1                           CR 0.900  R 0.900  P 0.900  k 1.00
+minilm__secmeta__k2                           CR 0.667  R 1.000  P 0.500  k 2.00
+minilm__secmeta__k3                           CR 0.500  R 1.000  P 0.333  k 3.00
+minilm__secmeta__k5                           CR 0.333  R 1.000  P 0.200  k 5.00
+minilm__secmeta__k3__u0.5                     CR 0.775  R 1.000  P 0.692  k 1.85
+minilm__secmeta__k3__u0.7                     CR 0.900  R 0.900  P 0.900  k 1.00
+minilm__secmeta__k3__caida0.05                CR 0.925  R 1.000  P 0.892  k 1.25
+minilm__secmeta__k3__caida0.1                 CR 0.825  R 1.000  P 0.750  k 1.60
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2949.53it/s]
+minilm__v300__k1                              CR 0.700  R 0.700  P 0.700  k 1.00
+minilm__v300__k2                              CR 0.567  R 0.850  P 0.425  k 2.00
+minilm__v300__k3                              CR 0.440  R 0.850  P 0.300  k 3.00
+minilm__v300__k5                              CR 0.295  R 0.850  P 0.180  k 5.00
+minilm__v300__k3__u0.5                        CR 0.617  R 0.850  P 0.533  k 2.00
+minilm__v300__k3__u0.7                        CR 0.700  R 0.700  P 0.700  k 1.00
+minilm__v300__k3__caida0.05                   CR 0.683  R 0.800  P 0.633  k 1.70
+minilm__v300__k3__caida0.1                    CR 0.665  R 0.850  P 0.583  k 2.00
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2824.51it/s]
+minilm__v500__k1                              CR 0.650  R 0.650  P 0.650  k 1.00
+minilm__v500__k2                              CR 0.550  R 0.800  P 0.425  k 2.00
+minilm__v500__k3                              CR 0.465  R 0.900  P 0.317  k 3.00
+minilm__v500__k5                              CR 0.324  R 0.900  P 0.200  k 5.00
+minilm__v500__k3__u0.5                        CR 0.590  R 0.750  P 0.525  k 1.65
+minilm__v500__k3__u0.7                        CR 0.650  R 0.650  P 0.650  k 1.00
+minilm__v500__k3__caida0.05                   CR 0.683  R 0.800  P 0.633  k 1.65
+minilm__v500__k3__caida0.1                    CR 0.642  R 0.850  P 0.567  k 2.05
+C:\Users\sereb\programming\faculty\ia-gen\corta\rag-mcp-hospital\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\sereb\.cache\huggingface\hub\models--intfloat--multilingual-e5-small. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2544.94it/s]
+e5s__sec__k1                                  CR 0.800  R 0.800  P 0.800  k 1.00
+e5s__sec__k2                                  CR 0.567  R 0.850  P 0.425  k 2.00
+e5s__sec__k3                                  CR 0.450  R 0.900  P 0.300  k 3.00
+e5s__sec__k5                                  CR 0.300  R 0.900  P 0.180  k 5.00
+e5s__sec__k3__u0.5                            CR 0.450  R 0.900  P 0.300  k 3.00
+e5s__sec__k3__u0.7                            CR 0.450  R 0.900  P 0.300  k 3.00
+e5s__sec__k3__caida0.05                       CR 0.525  R 0.900  P 0.400  k 2.70
+e5s__sec__k3__caida0.1                        CR 0.450  R 0.900  P 0.300  k 3.00
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2865.21it/s]
+e5s__secmeta__k1                              CR 0.900  R 0.900  P 0.900  k 1.00
+e5s__secmeta__k2                              CR 0.633  R 0.950  P 0.475  k 2.00
+e5s__secmeta__k3                              CR 0.500  R 1.000  P 0.333  k 3.00
+e5s__secmeta__k5                              CR 0.333  R 1.000  P 0.200  k 5.00
+e5s__secmeta__k3__u0.5                        CR 0.500  R 1.000  P 0.333  k 3.00
+e5s__secmeta__k3__u0.7                        CR 0.500  R 1.000  P 0.333  k 3.00
+e5s__secmeta__k3__caida0.05                   CR 0.692  R 1.000  P 0.583  k 2.20
+e5s__secmeta__k3__caida0.1                    CR 0.500  R 1.000  P 0.333  k 3.00
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2807.03it/s]
+e5s__v300__k1                                 CR 0.650  R 0.650  P 0.650  k 1.00
+e5s__v300__k2                                 CR 0.533  R 0.800  P 0.400  k 2.00
+e5s__v300__k3                                 CR 0.475  R 0.950  P 0.317  k 3.00
+e5s__v300__k5                                 CR 0.329  R 0.950  P 0.200  k 5.00
+e5s__v300__k3__u0.5                           CR 0.475  R 0.950  P 0.317  k 3.00
+e5s__v300__k3__u0.7                           CR 0.475  R 0.950  P 0.317  k 3.00
+e5s__v300__k3__caida0.05                      CR 0.542  R 0.950  P 0.400  k 2.70
+e5s__v300__k3__caida0.1                       CR 0.475  R 0.950  P 0.317  k 3.00
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2843.64it/s]
+e5s__v500__k1                                 CR 0.800  R 0.800  P 0.800  k 1.00
+e5s__v500__k2                                 CR 0.617  R 0.900  P 0.475  k 2.00
+e5s__v500__k3                                 CR 0.490  R 0.950  P 0.333  k 3.00
+e5s__v500__k5                                 CR 0.329  R 0.950  P 0.200  k 5.00
+e5s__v500__k3__u0.5                           CR 0.490  R 0.950  P 0.333  k 3.00
+e5s__v500__k3__u0.7                           CR 0.490  R 0.950  P 0.333  k 3.00
+e5s__v500__k3__caida0.05                      CR 0.523  R 0.950  P 0.375  k 2.85
+e5s__v500__k3__caida0.1                       CR 0.490  R 0.950  P 0.333  k 3.00
+C:\Users\sereb\programming\faculty\ia-gen\corta\rag-mcp-hospital\.venv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\sereb\.cache\huggingface\hub\models--intfloat--multilingual-e5-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  18%|█▊        | 36/199 [00:00<00:00, 359.19it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1139.07it/s]
+e5b__sec__k1                                  CR 0.850  R 0.850  P 0.850  k 1.00
+e5b__sec__k2                                  CR 0.600  R 0.900  P 0.450  k 2.00
+e5b__sec__k3                                  CR 0.450  R 0.900  P 0.300  k 3.00
+e5b__sec__k5                                  CR 0.317  R 0.950  P 0.190  k 5.00
+e5b__sec__k3__u0.5                            CR 0.450  R 0.900  P 0.300  k 3.00
+e5b__sec__k3__u0.7                            CR 0.450  R 0.900  P 0.300  k 3.00
+e5b__sec__k3__caida0.05                       CR 0.558  R 0.900  P 0.442  k 2.55
+e5b__sec__k3__caida0.1                        CR 0.458  R 0.900  P 0.308  k 2.95
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  20%|██        | 40/199 [00:00<00:00, 349.15it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1082.96it/s]
+e5b__secmeta__k1                              CR 0.950  R 0.950  P 0.950  k 1.00
+e5b__secmeta__k2                              CR 0.667  R 1.000  P 0.500  k 2.00
+e5b__secmeta__k3                              CR 0.500  R 1.000  P 0.333  k 3.00
+e5b__secmeta__k5                              CR 0.333  R 1.000  P 0.200  k 5.00
+e5b__secmeta__k3__u0.5                        CR 0.500  R 1.000  P 0.333  k 3.00
+e5b__secmeta__k3__u0.7                        CR 0.500  R 1.000  P 0.333  k 3.00
+e5b__secmeta__k3__caida0.05                   CR 0.692  R 1.000  P 0.583  k 2.20
+e5b__secmeta__k3__caida0.1                    CR 0.500  R 1.000  P 0.333  k 3.00
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  19%|█▊        | 37/199 [00:00<00:00, 352.58it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1035.87it/s]
+e5b__v300__k1                                 CR 0.900  R 0.900  P 0.900  k 1.00
+e5b__v300__k2                                 CR 0.633  R 0.950  P 0.475  k 2.00
+e5b__v300__k3                                 CR 0.475  R 0.950  P 0.317  k 3.00
+e5b__v300__k5                                 CR 0.329  R 0.950  P 0.200  k 5.00
+e5b__v300__k3__u0.5                           CR 0.475  R 0.950  P 0.317  k 3.00
+e5b__v300__k3__u0.7                           CR 0.475  R 0.950  P 0.317  k 3.00
+e5b__v300__k3__caida0.05                      CR 0.533  R 0.950  P 0.392  k 2.75
+e5b__v300__k3__caida0.1                       CR 0.483  R 0.950  P 0.325  k 2.95
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 26/199 [00:00<00:00, 258.95it/s]Loading weights:  91%|█████████ | 181/199 [00:00<00:00, 1016.97it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 987.03it/s] 
+e5b__v500__k1                                 CR 1.000  R 1.000  P 1.000  k 1.00
+e5b__v500__k2                                 CR 0.683  R 1.000  P 0.525  k 2.00
+e5b__v500__k3                                 CR 0.530  R 1.000  P 0.367  k 3.00
+e5b__v500__k5                                 CR 0.357  R 1.000  P 0.220  k 5.00
+e5b__v500__k3__u0.5                           CR 0.530  R 1.000  P 0.367  k 3.00
+e5b__v500__k3__u0.7                           CR 0.530  R 1.000  P 0.367  k 3.00
+e5b__v500__k3__caida0.05                      CR 0.613  R 1.000  P 0.475  k 2.65
+e5b__v500__k3__caida0.1                       CR 0.538  R 1.000  P 0.375  k 2.95

@@ -1,0 +1,6 @@
+{
+  "encoder": "intfloat/multilingual-e5-base",
+  "chunking": {"modo": "secciones", "metadatos": true},
+  "k": 1,
+  "umbral": 0.0
+}
