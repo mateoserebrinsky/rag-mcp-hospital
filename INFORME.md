@@ -60,7 +60,7 @@ Las métricas son idénticas y el conjunto de herramientas usadas coincide en la
 
 ## 5. Parte 5: bloque a mano
 
-El desarrollo con la justificación de cada operación está en `a_mano/solucion.md`, verificado con `a_mano/verificar.py`. Las hojas escritas a mano y escaneadas faltan y las tiene que aportar el grupo.
+El desarrollo con la justificación de cada operación está en `a_mano/solucion.md`, verificado con `a_mano/verificar.py`. Está resuelto en formato digital, no en hojas escaneadas.
 
 ## 6. Costo en OpenRouter
 

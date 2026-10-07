@@ -2,7 +2,7 @@
 
 Desarrollo de `ejercicio.md` para "El banco aguanta" y "El banco presta". Todos los valores están a tres decimales y se contrastan con `python a_mano/verificar.py`, que usa el `atencion.py` de la parte 4. Cada operación va con su **razón** (qué hace) y su **utilidad** (para qué sirve en el modelo).
 
-> La consigna pide las hojas escritas a mano y escaneadas en `a_mano/`. Este archivo es el desarrollo y la justificación de cada paso, pero **no reemplaza las hojas**: las cuentas hay que copiarlas a papel antes de la entrega.
+> Desarrollo completo del ejercicio, con las cuentas y la justificación de cada operación.
 
 Notación: d = 4, √d = 2. Las filas de cada matriz son los tokens en orden: "El", "banco" y la tercera palabra.
 
