@@ -60,7 +60,7 @@ Las métricas son idénticas y el conjunto de herramientas usadas coincide en la
 
 ## 5. Parte 5: bloque a mano
 
-El desarrollo con la justificación de cada operación está en `a_mano/solucion.md`, verificado con `a_mano/verificar.py`. Está resuelto en formato digital, no en hojas escaneadas.
+El desarrollo con la justificación de cada operación está en `a_mano/solucion.md`, verificado con `a_mano/verificar.py`. Las hojas escritas a mano y fotografiadas están en `a_mano/`: `1.jpeg` y `2.jpeg` (parte A, "El banco aguanta", pasos 1 a 13), `3.jpeg` (parte A, "El banco presta") y `5.png` (respuestas a las cinco preguntas). **La parte B (sin máscara) no está en las hojas manuscritas**; su desarrollo está solo en `a_mano/solucion.md`.
 
 ## 6. Costo en OpenRouter
 
