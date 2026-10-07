@@ -52,7 +52,7 @@ Mejor configuración de cada encoder (de las 32 que se probaron con cada uno: 4 
 
 Las métricas son idénticas y el conjunto de herramientas usadas coincide en las 12 preguntas, como corresponde: el modelo recibe los mismos nombres y descripciones, y el servidor ejecuta las mismas funciones. Las diferencias en tokens y costo (menos de 4 %) son chicas; lo más probable es que vengan de la variación del texto que genera el modelo en cada corrida (no lo medí aparte): el protocolo MCP no agrega tokens al prompt, porque el modelo ve las mismas descripciones. Lo que MCP agrega es tiempo, porque el servidor es un proceso aparte que carga el índice al arrancar, y el cliente hace un `tools/list` antes de cada pregunta (se ve en el log del servidor).
 
-**MCP Inspector.** Las seis herramientas se llamaron con `@modelcontextprotocol/inspector` en modo CLI (que no usa ningún LLM) y las respuestas están en `experimentos/inspector/` (`cli_*.json`). Las capturas de pantalla de la interfaz web del Inspector todavía no están.
+**MCP Inspector.** Las seis herramientas se llamaron desde la interfaz web de `@modelcontextprotocol/inspector` (sin ningún LLM) y las capturas están en `experimentos/inspector/` (`00_tools_list.png` y una por herramienta, `01_` a `06_`; el resultado de cada llamada aparece como `Tool Result: Success`). Las respuestas también se obtuvieron con el Inspector en modo CLI (`cli_*.json`). Las capturas se sacaron con Chrome en modo headless controlado por un script, porque la extensión de Chrome no estaba conectada.
 
 ## 4. Parte 4: capa de atención
 
