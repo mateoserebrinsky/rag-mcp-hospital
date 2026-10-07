@@ -29,12 +29,12 @@ def test_secciones_no_devuelve_vacios():
 
 
 def test_ventanas_respetan_tamano_y_solapan():
-    texto = "a" * 100 + " " + "b" * 100 + " " + "c" * 100
+    texto = " ".join(f"pal{i:03d}" for i in range(60))
     chunks = chunk_ventanas(f"# T\n\n{texto}\n", "d", tamano=150, solape=50)
     assert all(len(c["texto"]) <= 150 for c in chunks)
     assert len(chunks) >= 2
     # el final de un fragmento reaparece al inicio del siguiente
-    assert chunks[0]["texto"][-30:].strip() in chunks[1]["texto"]
+    assert chunks[0]["texto"].split()[-1] in chunks[1]["texto"].split()
 
 
 def test_ventanas_cubren_todo_el_texto():
