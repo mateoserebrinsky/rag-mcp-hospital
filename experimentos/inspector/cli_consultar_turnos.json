@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"especialidad\": \"dermatologia\", \"fecha\": \"2026-10-05\", \"datos\": [\"2026-11-03 11:00\", \"2026-11-05 11:30\"]}"
+    }
+  ],
+  "structuredContent": {
+    "result": "{\"especialidad\": \"dermatologia\", \"fecha\": \"2026-10-05\", \"datos\": [\"2026-11-03 11:00\", \"2026-11-05 11:30\"]}"
+  },
+  "isError": false
+}

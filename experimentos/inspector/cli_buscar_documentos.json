@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "La unidad tiene dos franjas de visita: de 12:00 a 12:30 y de 19:00 a 19:30. Ingresa un solo visitante por vez, que debe ser mayor de 14 años. Antes de entrar, el visitante se lava las manos y se coloca el camisolín que entrega enfermería. El parte médico a la familia se da en la franja del mediodía."
+    }
+  ],
+  "structuredContent": {
+    "result": "La unidad tiene dos franjas de visita: de 12:00 a 12:30 y de 19:00 a 19:30. Ingresa un solo visitante por vez, que debe ser mayor de 14 años. Antes de entrar, el visitante se lava las manos y se coloca el camisolín que entrega enfermería. El parte médico a la familia se da en la franja del mediodía."
+  },
+  "isError": false
+}

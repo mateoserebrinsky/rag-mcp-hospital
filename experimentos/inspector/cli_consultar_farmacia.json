@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"medicamento\": \"enalapril 10 mg\", \"fecha\": \"2026-10-05\", \"datos\": {\"stock\": 0, \"unidad\": \"comprimidos\", \"reposicion\": \"2026-10-09\"}}"
+    }
+  ],
+  "structuredContent": {
+    "result": "{\"medicamento\": \"enalapril 10 mg\", \"fecha\": \"2026-10-05\", \"datos\": {\"stock\": 0, \"unidad\": \"comprimidos\", \"reposicion\": \"2026-10-09\"}}"
+  },
+  "isError": false
+}

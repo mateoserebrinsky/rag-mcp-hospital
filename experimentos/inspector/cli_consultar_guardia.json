@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"especialidad\": \"cardiologia\", \"fecha\": \"2026-10-05\", \"datos\": [{\"profesional\": \"Dr. Julián Ferreyra\", \"horario\": \"08:00-20:00\"}, {\"profesional\": \"Dra. Paula Benítez\", \"horario\": \"20:00-08:00\"}]}"
+    }
+  ],
+  "structuredContent": {
+    "result": "{\"especialidad\": \"cardiologia\", \"fecha\": \"2026-10-05\", \"datos\": [{\"profesional\": \"Dr. Julián Ferreyra\", \"horario\": \"08:00-20:00\"}, {\"profesional\": \"Dra. Paula Benítez\", \"horario\": \"20:00-08:00\"}]}"
+  },
+  "isError": false
+}

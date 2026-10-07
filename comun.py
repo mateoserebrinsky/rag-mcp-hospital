@@ -14,6 +14,19 @@ from openai import AsyncOpenAI
 MODELO = "deepseek/deepseek-v4-flash-0731"
 RAIZ = Path(__file__).resolve().parent
 
+
+def _cargar_env():
+    """Lee RAIZ/.env (CLAVE=valor) sin pisar variables que ya estan en el entorno."""
+    ruta = RAIZ / ".env"
+    if ruta.exists():
+        for linea in ruta.read_text(encoding="utf-8").splitlines():
+            if "=" in linea and not linea.lstrip().startswith("#"):
+                clave, valor = linea.split("=", 1)
+                os.environ.setdefault(clave.strip(), valor.strip())
+
+
+_cargar_env()
+
 INSTRUCCIONES = """Sos el asistente del Hospital Provincial Arroyo Claro. Contestás preguntas de pacientes y familiares, en español rioplatense, de forma clara y breve.
 
 Tenés dos fuentes y ninguna otra:

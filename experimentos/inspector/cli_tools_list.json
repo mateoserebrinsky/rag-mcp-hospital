@@ -1,0 +1,176 @@
+{
+  "tools": [
+    {
+      "name": "buscar_documentos",
+      "description": "Busca en los documentos del hospital (normas y procedimientos que casi no cambian): horarios y reglas de visita, preparación para estudios y ayunos, documentación para turnos, derechos del paciente, coberturas, alta, internación, guardia y triage, vacunatorio, farmacia, etc. Usala para cualquier pregunta sobre CÓMO funciona algo, QUÉ hay que hacer o QUÉ se necesita. NO tiene datos del día (camas, turnos, stock). Argumento: `consulta`, la pregunta o los términos clave en español.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "consulta": {
+            "title": "Consulta",
+            "type": "string"
+          }
+        },
+        "required": [
+          "consulta"
+        ],
+        "title": "buscar_documentosArguments"
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "buscar_documentosOutput"
+      }
+    },
+    {
+      "name": "consultar_camas",
+      "description": "Consulta en vivo cuántas camas hay en un sector del hospital: total, ocupadas y libres hoy. Usala cuando pregunten si hay lugar o camas disponibles. Argumento: `sector` (por ejemplo 'pediatria', 'terapia intensiva', 'clinica medica', 'maternidad'). Si el nombre no existe devuelve las opciones válidas.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "sector": {
+            "title": "Sector",
+            "type": "string"
+          }
+        },
+        "required": [
+          "sector"
+        ],
+        "title": "consultar_camasArguments"
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "consultar_camasOutput"
+      }
+    },
+    {
+      "name": "consultar_guardia",
+      "description": "Consulta en vivo qué profesionales están de guardia hoy en una especialidad y en qué horario. Usala cuando pregunten quién atiende hoy o si hay un médico de guardia. Argumento: `especialidad` (por ejemplo 'pediatria', 'cardiologia', 'traumatologia'). Si el nombre no existe devuelve las opciones válidas.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "especialidad": {
+            "title": "Especialidad",
+            "type": "string"
+          }
+        },
+        "required": [
+          "especialidad"
+        ],
+        "title": "consultar_guardiaArguments"
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "consultar_guardiaOutput"
+      }
+    },
+    {
+      "name": "consultar_turnos",
+      "description": "Consulta en vivo los próximos turnos disponibles (fecha y hora) de una especialidad. Usala cuando pregunten cuándo hay turno o por la disponibilidad de turnos. No explica cómo se saca un turno ni qué documentos llevar (eso está en los documentos). Argumento: `especialidad`. Si el nombre no existe devuelve las opciones válidas.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "especialidad": {
+            "title": "Especialidad",
+            "type": "string"
+          }
+        },
+        "required": [
+          "especialidad"
+        ],
+        "title": "consultar_turnosArguments"
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "consultar_turnosOutput"
+      }
+    },
+    {
+      "name": "consultar_farmacia",
+      "description": "Consulta en vivo el stock de un medicamento en la farmacia del hospital y, si no hay, la fecha de reposición. Usala cuando pregunten si hay un medicamento hoy. Argumento: `medicamento`, el nombre con su dosis si la tiene (por ejemplo 'enalapril 10 mg'). Si el nombre no existe devuelve las opciones válidas.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "medicamento": {
+            "title": "Medicamento",
+            "type": "string"
+          }
+        },
+        "required": [
+          "medicamento"
+        ],
+        "title": "consultar_farmaciaArguments"
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "consultar_farmaciaOutput"
+      }
+    },
+    {
+      "name": "consultar_espera",
+      "description": "Consulta en vivo cuántos minutos de espera hay hoy en la guardia, por nivel de triage (rojo, naranja, amarillo, verde, azul). Usala cuando pregunten cuánto se demora la atención en la guardia ahora. No recibe argumentos. Cómo funciona el triage y qué significa cada color está en los documentos.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "title": "consultar_esperaArguments"
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "title": "Result",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ],
+        "title": "consultar_esperaOutput"
+      }
+    }
+  ]
+}

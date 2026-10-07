@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"fecha\": \"2026-10-05\", \"minutos_por_nivel\": {\"rojo\": 0, \"naranja\": 7, \"amarillo\": 48, \"verde\": 135, \"azul\": 210}}"
+    }
+  ],
+  "structuredContent": {
+    "result": "{\"fecha\": \"2026-10-05\", \"minutos_por_nivel\": {\"rojo\": 0, \"naranja\": 7, \"amarillo\": 48, \"verde\": 135, \"azul\": 210}}"
+  },
+  "isError": false
+}
